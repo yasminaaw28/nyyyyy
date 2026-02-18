@@ -1,0 +1,99 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 600px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: #222;
+  margin: 0 auto;
+}
+header {
+  background-color: #f2e0f1;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+main {
+  background-color: #fdf7ff;
+  margin: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+footer {
+  background-color: #f2e0f1;
+  padding: 1rem;
+  margin-inline: 1.2rem;
+  margin-top: 1rem;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e276db;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e276db;
+}
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  max-width: 70ch;
+}
+main img {
+  margin-top: 1rem;
+}
+/* main img {
+  margin-bottom: 4rem;
+} */
+.operativsystemer img {
+  margin-bottom: 2rem;
+}
+/* .komponenter img {
+  margin-bottom: 2rem;
+} */
+.komponenter h3 {
+  color: #d595d1;
+}
+.udseende {
+  font-size: 1.5rem;
+  color: #d595d1;
+}
+.stats-text dt {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.stats-text dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.grid_1-1 p:first-of-type {
+  margin-bottom: 50px;
+}
+.galleri_intro {
+  margin-top: -45px;
+  margin-inline-start: -9rem;
+}
